@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<extension key="net.gellweiler.sepacontributionautofill" type="module">
+  <file>sepacontributionautofill</file>
+  <name>Sepa in standard contributions – autofill fields</name>
+  <description>
+    This is an extension for the Sepa in standard contributions module,
+    that autofills the sepa fields in the contribution form with information
+    from contact fields.
+  </description>
+  <license>MIT</license>
+  <maintainer>
+    <author>Sebastian Gellweiler</author>
+    <email>sg@gellweiler.net</email>
+  </maintainer>
+  <urls>
+    <url desc="Licensing">http://opensource.org/licenses/MIT</url>
+  </urls>
+  <releaseDate>2015-03-29</releaseDate>
+  <version>1.0</version>
+  <develStage>alpha</develStage>
+  <compatibility>
+    <ver>4.2</ver>
+  </compatibility>
+  <comments>
+  </comments>
+  <civix>
+    <namespace>CRM/Sepacontributionautofill</namespace>
+  </civix>
+</extension>
